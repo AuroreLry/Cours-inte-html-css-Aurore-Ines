@@ -316,7 +316,7 @@ p {
 
 .flot-condition {
     left: 0;
-    position: fixed;
+    position: relative;
     text-align: left;
     bottom: 0;
     width: 100%;
