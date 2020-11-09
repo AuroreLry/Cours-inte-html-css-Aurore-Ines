@@ -1,0 +1,311 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #E8F0F4;
+    margin: 0;
+}
+
+.div_nav {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.div_nav_left {
+    width: 30%;
+    align-self: flex-start;
+}
+
+.nav_ul_left {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav_li_left {
+    align-self: center;
+}
+
+.div_nav_main {
+    width: 35%;
+    align-self: center;
+}
+
+.nav_ul_main {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_nav_right {
+    width: 30%;
+    align-self: flex-end;
+}
+
+.nav_ul_right {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;    
+}
+
+.nav_li_right {
+    margin-left: 10px;;    
+}
+
+#profil_nav {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.righticon {
+    width: 40px;
+}
+
+#logofb {
+    width: 50px;
+    margin-right: 10px;    
+}
+
+.mainicon {
+    width: 40px;
+}
+
+#rechercher {
+    height: 40px;
+    width: 200px;
+    outline: none;
+    background-color: #E8F0F4;
+    border-style: hidden;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+
+.globale {
+    display: flex;
+    margin-top: 1em;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 25%;
+}
+
+.main {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.ul_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.li_main {
+    margin-top: 15px;
+}
+
+.ul_story {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0;
+}
+
+.li_story {
+    width: 20%;
+    margin-right: 4px;
+    margin-left: 4px;
+}
+
+.background_story {   
+    background-size: 110px 190px;
+    height: 190px;
+    width: 110px;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.image_story {
+    padding: 10px;
+}
+
+.nom_story {
+    padding-left: 5px;
+    color: white;
+    align-self: baseline;
+}
+
+.profilpicstory{
+    width: 30px;
+    border-radius: 50%;
+    border: blue solid 3px;
+}
+
+.div_statut {
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    background-color: white;
+    border-radius: 15px;
+    padding-top: 20px;
+}
+
+#ul_statut {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.li_statut {
+    padding-right: 15px;
+}
+
+.profilpicmain {
+    width: 40px;
+    border-radius: 50%;
+}
+
+.inputmain {
+    height: 40px;
+    width: 400px;
+    outline: none;
+    background-color: #E8F0F4;
+    border-style: hidden;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+#hr_statut {
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    border: solid #E8F0F4 1px;
+}
+
+.div_statut_humeur {
+    color: grey;
+    font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+#ul_video_direct {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.li_video_direct {
+    padding-right: 5px;
+}
+
+#ul_photo_video {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.li_photo_video {
+    padding-right: 5px;
+}
+
+#ul_humeur {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.li_humeur {
+    padding-right: 5px;
+}
+
+.div_salons {
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.ul_icon_salon {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.li_icon_salon {
+    padding-right: 10px;
+}
+
+#discussion_video_text {
+    color: grey;
+}
+
+#créer_salon {
+    text-decoration: none;
+    color: blue;
+}
+
+#li_créer_salon {
+    margin-left: 185px;
+}
+
+.ul_contact_salon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.li_contact_salon {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.div_post {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.ul_post_profil {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.li_post_profil {
+    padding-right: 10px;
+}
+
+.titre {
+    font-weight: 500;
+}
+
+.image_post {
+    width: 100%;
+    height: auto;
+}
