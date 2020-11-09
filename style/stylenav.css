@@ -90,10 +90,12 @@ body {
 
 .left {
     width: 25%;
+    position: sticky;
 }
 
 .right {
     width: 25%;
+    position:sticky;
 }
 
 .main {
