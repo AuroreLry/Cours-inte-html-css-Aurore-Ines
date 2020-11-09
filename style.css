@@ -1,0 +1,132 @@
+body {
+    background-color: #E8F0F4;
+}
+
+.centrale {
+    width: 60%;
+}
+
+.globale {
+    display: flex;
+    margin-top: 1em;
+}
+
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 20%;
+}
+
+/* CCS left-side*/
+
+p {
+    font-size: 0.7em;
+}
+
+.flot-condition {
+    left: 0;
+    position: fixed;
+    text-align: left;
+    bottom: 0;
+    width: 100%;
+}
+
+.arrondir-pdp {
+    width: 45px;
+    border-radius: 50%;
+}
+
+
+.ul-left-page {
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+}
+
+.li-leftpage {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.taille-leftpage-list1 {
+    height: 35%;
+}
+
+.icons-raccourcis {
+    width: 1.87em;
+    border-radius: 13%;
+}
+
+.titreraccourcis {
+    color: #969696;
+}
+
+.hr-leftpage {
+    color: #dddddd;
+
+}
+
+/* CCS Right-side*/
+
+.sponsorité-titre {
+    color: #969696;
+}
+
+.style-imagepub {
+    width: 4em;
+    border-radius: 20%;
+}
+
+
+.flexbardecontact
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.pdp_contact {
+    width: 37px;
+    border-radius: 50%;
+}
+
+.ul-right-barcontact
+
+{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.ul-right-pub
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;
+}
+
+.alignement-pub
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ul-contact1
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: stretch;
+    flex-direction: column;  
+    align-self: start;
+}
+
+.flot-nvx-mess {
+    right: 0;
+    position: fixed;
+    bottom: 0;
+    width: 4%;
+    }

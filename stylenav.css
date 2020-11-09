@@ -1,0 +1,67 @@
+.div_nav {
+    display: flex;
+    background-color: grey;
+
+}
+
+.div_nav_left {
+    width: 30%;
+}
+
+.nav_ul_left {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_li_left {
+    display: inline;
+}
+
+.div_nav_main {
+    width: 40%;
+}
+
+.nav_ul_main {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_li_main {
+    display: inline;
+}
+
+.div_nav_right {
+    width: 30%;
+}
+
+.nav_ul_right {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav_li_right {
+    display: inline;
+    
+}
+
+#profil_nav {
+    width: 40px;
+    border-radius: 50%;
+}
+
+img {
+    width: 50px;
+}
+
+#logofb {
+    width: 100px;
+}
+
+.mainicon {
+    width: 100px;
+}
+
+#rechercher {
+    height: 40px;
+    border-radius: ;
+}
