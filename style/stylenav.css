@@ -14,40 +14,50 @@ body {
 .div_nav_left {
     width: 30%;
     align-self: flex-start;
+    height: fit-content;
 }
 
 .nav_ul_left {
     list-style-type: none;
     display: flex;
     justify-content: flex-start;
+    margin-left: 10px;
+    padding: 0;
 }
 
 .nav_li_left {
     align-self: center;
+    width: min-content;
+    margin: 0;
+    padding: 0;
 }
 
 .div_nav_main {
-    width: 40%;
+    width: 35%;
     align-self: center;
+    height: fit-content;
 }
 
 .nav_ul_main {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .div_nav_right {
     width: 30%;
-    align-self: flex-end;
+    align-self: center;
+    height: fit-content;
 }
 
 .nav_ul_right {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    margin-right: 20px;    
+    margin-right: 20px;  
+    padding: 0;  
 }
 
 .nav_li_right {
@@ -64,8 +74,9 @@ body {
 }
 
 #logofb {
-    width: 50px;
-    margin-right: 10px;    
+    width: 40px;
+    margin-right: 10px;
+    padding: 0; 
 }
 
 .mainicon {
@@ -84,7 +95,6 @@ body {
 
 .globale {
     display: flex;
-    margin-top: 1em;
     justify-content: space-between;
 }
 
@@ -101,6 +111,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.main p {
+    font-size: 1em;
 }
 
 .ul_main {
@@ -161,6 +175,7 @@ body {
     background-color: white;
     border-radius: 15px;
     padding-top: 20px;
+    height: fit-content;
 }
 
 #ul_statut {
@@ -244,6 +259,7 @@ body {
     background-color: white;
     border-radius: 15px;
     padding: 10px;
+    height: fit-content;
 }
 
 .ul_icon_salon {
@@ -393,6 +409,7 @@ p {
     list-style-type: none;
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding-left: 7em;
 }
 
